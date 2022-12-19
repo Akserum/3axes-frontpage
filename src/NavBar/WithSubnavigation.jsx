@@ -123,14 +123,14 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       display={"block"}
       p={2}
       rounded={"md"}
-      _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
+      _hover={{ bg: useColorModeValue("orange.50", "gray.900") }}
     >
       <Stack direction={"row"} align={"center"}>
         <Box>
           <Text
             fontSize="xs"
             transition={"all .3s ease"}
-            _groupHover={{ color: "pink.400" }}
+            _groupHover={{ color: "orange.400" }}
             fontWeight={500}
           >
             {label}
@@ -146,7 +146,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           align={"center"}
           flex={1}
         >
-          <Icon color={"pink.400"} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={"orange.400"} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>
@@ -227,7 +227,7 @@ const NAV_ITEMS = [
   },
   {
     label: "SCHÉMAS DE FORMATION",
-    href: "#",
+    href: "https://www.3axes-institut.com/schemas-de-formation/",
   },
   {
     label: "DÉCOUVRIR 3AXES",
@@ -235,17 +235,17 @@ const NAV_ITEMS = [
       {
         label: "PORTES OUVERTES",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/journee-portes-ouvertes/",
       },
       {
         label: "STAGE DÉCOUVERTE",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/journees-decouverte/",
       },
       {
         label: "SUMMER SCHOOL",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/summer-school/",
       },
     ],
   },
@@ -255,17 +255,17 @@ const NAV_ITEMS = [
       {
         label: "ANIMATION 3D",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/animation-3d/",
       },
       {
         label: "JEU VIDEO",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/jeu-video/",
       },
       {
         label: "MOTION DESIGN",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/motion-design/",
       },
     ],
   },
@@ -275,12 +275,12 @@ const NAV_ITEMS = [
       {
         label: "CHEF DE PROJET 3D",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/chef-de-projet-animation-3d/",
       },
       {
         label: "CHEF DE PROJET JEU VIDEO",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/chef-de-projet-jeu-video/",
       },
     ],
   },
@@ -290,17 +290,17 @@ const NAV_ITEMS = [
       {
         label: "LE GROUPE 3AXES",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/nos-ecoles/",
       },
       {
         label: "3AXES LILLE",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/3axes-institut-lille/",
       },
       {
         label: "3AXES RENNES",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/3axes-institut-rennes/",
       },
     ],
   },
@@ -310,40 +310,40 @@ const NAV_ITEMS = [
       {
         label: "INSCRIPTION",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/inscription/",
       },
       {
         label: "TARIFS 3AXES LILLE",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/tarifs-3axes-lille/",
       },
       {
         label: "TARIFS 3AXES RENNES",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/tarifs-3axes-rennes/",
       },
       {
         label: "FOIRE AUX QUESTIONS",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/foire-aux-questions/",
       },
       {
         label: "AIDES & FINANCEMENTS",
         subLabel: "",
-        href: "#",
+        href: "https://www.3axes-institut.com/aides-financements/",
       },
     ],
   },
   {
     label: "FORMATION CONTINUE",
-    href: "#",
+    href: "https://www.3axes-institut.com/formation-continue/",
   },
   {
     label: "PÔLE DE COMPÉTENCES",
-    href: "#",
+    href: "https://www.3axes-institut.com/pole-de-competences/",
   },
   {
     label: "DÉPOSER UNE OFFRE DE STAGE",
-    href: "#",
+    href: "https://www.3axes-institut.com/espace-entreprise/",
   },
 ];

@@ -1,0 +1,6 @@
+.frontpage-video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: "absolute";
+}
